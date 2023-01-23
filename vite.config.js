@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    publicDir: 'assets',
+    publicDir: 'theme/assets',
     mode: 'production',
     build: {
         minify: true,
