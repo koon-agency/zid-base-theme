@@ -5,7 +5,6 @@ export default defineConfig({
     mode: 'production',
     build: {
         minify: true,
-        target: ['es2015'],
         lib: {
             entry: ["./src/app.js"],
             name: "app",
