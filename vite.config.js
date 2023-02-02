@@ -6,11 +6,12 @@ export default defineConfig({
     build: {
         minify: true,
         lib: {
+            emptyOutDir: false,
             entry: ["./src/app.js"],
             name: "app",
             formats: ['es'],
             fileName: (format, entryName) => `${entryName}.js`
         },
-        outDir: 'assets'
+        outDir: 'theme/assets'
     }
 });
