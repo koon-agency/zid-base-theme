@@ -1,6 +1,5 @@
 # Editor
 *.sublime*
-.vscode
 
 # misc
 .DS_Store
